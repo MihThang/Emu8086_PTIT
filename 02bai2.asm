@@ -6,7 +6,7 @@
     MSG2 DB 'Ki tu vua nhap la : $'  
     KITU DB ?
 .CODE
-    ;Lay du lieu tu DATA v‡o DS
+    ;Lay du lieu tu DATA v√†o DS
     MOV AX, @DATA
     MOV DS, AX
     
