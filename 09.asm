@@ -3,7 +3,7 @@
 .Data 
     msg1 db 'nhap so nhi phan khong qua 8 Bit: $'
     msg2 db 10,13,'So hexa la: $'     
-    msg3 db 10,13,'so khong hop le, hay nhap so nhi phan moi: '
+    msg3 db 10,13,'so khong hop le, hay nhap so nhi phan moi: $'
     so dw 0    
     socu dw 0 
     xau db 80 dup('$')    
