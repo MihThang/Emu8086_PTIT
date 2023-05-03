@@ -18,7 +18,10 @@
         
         call Nhap 
         call Hexa    
-        
+                
+        Mov Ah, 02h
+        Mov Dl, 'h'
+        Int 21H 
     ;==========Thoat chuong trinh============
     MOV AH, 4Ch
     INT 21h    
