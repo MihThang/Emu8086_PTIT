@@ -1,4 +1,4 @@
-                             .Model Small
+.Model Small
 .Stack 100h
 .Data     
     Msg2 Db 'Nhap 10 so co 2 chu so: $'
